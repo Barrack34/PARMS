@@ -1000,12 +1000,21 @@
     }
 
     .custom-navbar {
-      background: #ffffff;
+      background: black;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       padding: 10px 0;
       text-align: center;
+     
+    }
+    .nav .navbar-nav-first{
+      height: 100%;
+      width:100%;
+      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      color: white;
+      background-color: rgb(68, 65, 65);
+
     }
 
     .custom-navbar .navbar-brand,
@@ -1015,6 +1024,8 @@
 
     .custom-navbar .nav li a {
       padding: 10px;
+      background-color:lightgray;
+      
     }
 
     .custom-navbar .navbar-brand,
@@ -1025,7 +1036,7 @@
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
-      color: #575757;
+      color: white;
     }
 
     .custom-navbar .navbar-nav.navbar-right li {
